@@ -5,72 +5,84 @@ server: 45.64.132.21
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 2ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[ShowTime, FtpBD]"
 type: socks5
 server: 118.179.216.138
 port: 1920
 username: test
 password: test
+
 - name: "🦊 RedFox 3ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[SamFTP, ShowTime, FtpBD]"
 type: socks5
 server: 103.126.23.222
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 4ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[SamFTP, ShowTime, FtpBD, EBox, TimePassBD, Discovery, CloudTV, IccFTP]"
 type: socks5
 server: 103.38.55.55
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 5ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[SamFTP, ShowTime, FtpBD]"
 type: socks5
 server: 103.122.74.26
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 6ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[SamFTP, ShowTime, FtpBD, EBox, TimePassBD, Discovery, CloudTV, IccFTP]"
 type: socks5
 server: 103.166.253.94
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 7ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[CircleFTP]"
 type: socks5
 server: 103.186.238.9
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 8ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[CircleFTP]"
 type: socks5
 server: 103.111.225.73
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 9ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[SamFTP, FtpBD, IccFTP]"
 type: socks5
 server: 103.108.60.35
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 10ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[ShowTime, FtpBD, IccFTP]"
 type: socks5
 server: 103.84.252.101
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 11ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[ShowTime, FtpBD]"
 type: socks5
 server: 123.253.96.249
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 12ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[ShowTime, FtpBD]"
 type: socks5
 server: 114.130.183.10
 port: 1088
 username: test
 password: test
+
 - name: "🦊 RedFox 13ㅤㅤㅤㅤㅤㅤㅤ️ㅤㅤㅤㅤㅤㅤㅤ️ -FTP[ShowTime, FtpBD]"
 type: socks5
 server: 103.195.140.12
