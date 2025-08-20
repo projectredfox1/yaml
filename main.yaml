@@ -1,2 +1,2 @@
 proxies:
-  - { name: "Download New Version", type: socks5, server: , port: , username: "", password: "" }
+  - { name: "🦊 RedFox-1", type: socks5, server: 1.11.1.1.1, port: 2580, username: "RedFox", password: "RedFox" }
