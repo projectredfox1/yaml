@@ -1,0 +1,63 @@
+# ==============================
+#   RedFox SOCKS5 Config (Full)
+#   Telegram Channel: RedFox
+# ==============================
+
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+proxies:
+  - { name: "🦊 RedFox-1", type: socks5, server: 103.114.97.103, port: 2580, username: "RedFox", password: "RedFox" }
+  - { name: "🦊 RedFox-2", type: socks5, server: server3.redfox.xo.je, port: 60088, username: "RedFox", password: "RedFox" }
+  - { name: "🦊 RedFox-3", type: socks5, server: server8.redfox.xo.je, port: 2580, username: "RedFox", password: "RedFox" }
+  - { name: "🦊 RedFox-4", type: socks5, server: server9.redfox.xo.je, port: 6969, username: "RedFox", password: "RedFox" }
+  - { name: "🦊 RedFox-5", type: socks5, server: 103.152.106.105, port: 7626, username: "RedFox", password: "RedFox" }
+  - { name: "🦊 RedFox-6", type: socks5, server: 116.68.199.86, port: 2580, username: "RedFox", password: "RedFox" }
+
+proxy-groups:
+  # Load Balance group (round robin)
+  - name: "🔴 RedFox LoadBalance"
+    type: load-balance
+    proxies:
+      - "🦊 RedFox-1"
+      - "🦊 RedFox-2"
+      - "🦊 RedFox-3"
+      - "🦊 RedFox-4"
+      - "🦊 RedFox-5"
+      - "🦊 RedFox-6"
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    strategy: round-robin
+    lazy: true
+
+  # Fastest server auto detection
+  - name: "⚡ Low Ping RedFox"
+    type: url-test
+    proxies:
+      - "🦊 RedFox-1"
+      - "🦊 RedFox-2"
+      - "🦊 RedFox-3"
+      - "🦊 RedFox-4"
+      - "🦊 RedFox-5"
+      - "🦊 RedFox-6"
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60
+
+  # Master selector group
+  - name: "🌐 RedFox Master"
+    type: select
+    proxies:
+      - "🔴 RedFox LoadBalance"
+      - "⚡ Low Ping RedFox"
+      - "🦊 RedFox-1"
+      - "🦊 RedFox-2"
+      - "🦊 RedFox-3"
+      - "🦊 RedFox-4"
+      - "🦊 RedFox-5"
+      - "🦊 RedFox-6"
+
+rules:
+  - MATCH,🌐 RedFox Master
