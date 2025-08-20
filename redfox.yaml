@@ -10,3 +10,5 @@ proxies:
   - { name: "🦊 RedFox-9", type: socks5, server: 103.111.225.73, port: 1088, username: "test", password: "test" }
   - { name: "🦊 RedFox-10", type: socks5, server: 103.108.60.35, port: 1088, username: "test", password: "test" }
   - { name: "🦊 RedFox-11", type: socks5, server: 103.84.252.101, port: 1088, username: "test", password: "test" }
+  - { name: "🦊 RedFox-12", type: socks5, server: 103.197.48.198, port: 1088, username: "test", password: "test" }
+  - { name: "🦊 RedFox-13", type: socks5, server: 118.179.158.241, port: 1088, username: "test", password: "test" }
