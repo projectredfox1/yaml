@@ -1,1 +1,2 @@
-
+proxies:
+  - { name: "Download New Version", type: socks5, server: , port: , username: "", password: "" }
