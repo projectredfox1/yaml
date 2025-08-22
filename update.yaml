@@ -1,2 +1,2 @@
 proxies:
-  - { name: "🦊 Update Needed", type: socks5, server: 103.114.97.103, port: 2580, username: "RedFox", password: "RedFox" }
+  - { name: "🦊 Update Needed", type: socks5, server: 1.1.1.1, port: 2580, username: "RedFox", password: "RedFox" }
